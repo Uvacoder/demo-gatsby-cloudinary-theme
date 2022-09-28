@@ -5,7 +5,6 @@ module.exports = {
     {
       resolve: "gatsby-theme-cloudinary-gallery",
       options: {
-        basePath:"/profilepics",
         cloudName: process.env.CLOUDINARY_CLOUDNAME,
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
